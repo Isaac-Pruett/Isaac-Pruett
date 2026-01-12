@@ -22,7 +22,7 @@ I build things that move, think, and react — such as VEXU competition bots and
   → [hexapod](https://github.com/Isaac-Pruett/hexapod)
 
 ### Tech Stack I Love
-- **Languages**: Rust · Python · C/C++ · Java 
+- **Languages**: Python · Rust · C/C++ · Java 
 - **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · VEX SDK · Nix  
 - **Tools**: Cargo · uv · Git · Zed · VSCode
 
