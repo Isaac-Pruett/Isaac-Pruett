@@ -23,7 +23,7 @@ I build things that move, think, and react — such as VEXU competition bots and
 
 ### Tech Stack I Love
 - **Languages**: Python · Rust · C/C++ · Java 
-- **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · VEX SDK · Nix  
+- **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · Nix · VEX SDK
 - **Tools**: Cargo · uv · Git · Zed · VSCode
 
 Open to collaborations, feedback, or chatting about robotics, embedded Rust, edge AI, or Cal Poly CS life. Feel free to reach out!
