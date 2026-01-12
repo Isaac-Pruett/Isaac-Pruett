@@ -18,7 +18,7 @@ I build things that move, think, and react — such as VEXU competition bots and
   Deploying neural networks on **Jetson Orin Nano** for mobile, battery-powered highway monitoring.  
   → [Jetson-RT-Traffic-System](https://github.com/Isaac-Pruett/Jetson-RT-Traffic-System) (Python, DeepStream, ROS 2)
 
-- **Hexapod** — Rust-powered embedded control software for a six-legged walking robot.  
+- **Hexapod** — Rust-powered embedded control software for a six-legged walking robot. (RP2040, Embassy, Embedded Rust)
   → [hexapod](https://github.com/Isaac-Pruett/hexapod)
 
 ### Tech Stack I Love
