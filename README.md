@@ -3,7 +3,7 @@
 **Computer Science** student at **California Polytechnic State University, San Luis Obispo** (Cal Poly SLO).  
 Passionate about **robotics**, **real-time embedded systems**, **edge AI**, and **safe high-performance code**.
 
-I build things that move, think, and react — from legged robots and VEXU competition bots to real-time traffic anomaly detection on NVIDIA Jetson hardware.
+I build things that move, think, and react — such as VEXU competition bots and real-time traffic anomaly detection on NVIDIA Jetson hardware. I'm currently working on autonomous drone software on NVIDIA Jetson Hardware and legged robots in embedded Rust.
 
 ### Currently Working On
 - **BROS** — A lightweight, modern alternative to ROS using **Zenoh** pub/sub + **Nix flakes** for reproducible builds. Built as a part of my work in [PolyUAS](https://polyuas.org).
