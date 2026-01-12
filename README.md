@@ -8,7 +8,7 @@ I build things that move, think, and react — such as VEXU competition bots and
 ### Currently Working On
 - **BROS** — A lightweight, modern alternative to ROS using **Zenoh** pub/sub + **Nix flakes** for reproducible builds. Built as a part of my work in [PolyUAS](https://polyuas.org).
   → [BROS](https://github.com/Isaac-Pruett/BROS)
-- **Cal Poly Gear Slingers VEX U Team** (2025–2026 Season: Push Back)  
+- [**Cal Poly Gear Slingers VEX U Team**](https://cpvexu.weebly.com) (2025–2026 Season: Push Back)  
   Programming lead — writing performant robot control software in **C++** + embedded firmware in **Rust**.  
   → [2025-2026](https://github.com/CalPolyVEX/2025-2026) Current Season + Rust Firmware · [MonarchBoard](https://github.com/CalPolyVEX/MonarchBoard) (older C++ firmware)
 
