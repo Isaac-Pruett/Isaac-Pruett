@@ -6,7 +6,9 @@ Passionate about **robotics**, **real-time embedded systems**, **edge AI**, and 
 I build things that move, think, and react — such as VEXU competition bots and real-time traffic anomaly detection on NVIDIA Jetson hardware. I'm currently working on autonomous drone software on NVIDIA Jetson Hardware and legged robots in embedded Rust.
 
 ### Currently Working On
-- **BROS** — A lightweight, modern alternative to ROS using **Zenoh** pub/sub + **Nix flakes** for reproducible builds. Built as a part of my work in [PolyUAS](https://polyuas.org).
+- [**PolyUAS**](https://polyuas.org) - A competitive Unmanned Aerial Systems team building drones for C-UAS competitions.
+  Co-Software lead + GNC lead - writing safety-critical hardware integration layers and building autonomous navigation logic. [PolyUAS GitHub Page](https://github.com/PolyUAS), private as of 3/13/2026.
+- **BROS** — A lightweight, modern tech stack alternative to ROS using **Zenoh** pub/sub + **Nix flakes** for reproducible builds. Built as a part of my work in [PolyUAS](https://polyuas.org).
   → [BROS](https://github.com/Isaac-Pruett/BROS)
 - [**Cal Poly Gear Slingers VEX U Team**](https://cpvexu.weebly.com) (2025–2026 Season: Push Back)  
   Programming lead — writing performant robot control software in **C++** + embedded firmware in **Rust**.  
@@ -23,7 +25,7 @@ I build things that move, think, and react — such as VEXU competition bots and
 
 ### Tech Stack I Love
 - **Languages**: Python · Rust · C/C++ · Java 
-- **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · Nix · VEX SDK
+- **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · Genesis · Nix · VEX SDK
 - **Tools**: Cargo · uv · Git · Zed · VSCode
 
 Open to collaborations, feedback, or chatting about robotics, embedded Rust, edge AI, or Cal Poly CS life. Feel free to reach out!
