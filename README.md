@@ -1,31 +1,37 @@
 # Hey! I'm Isaac Pruett
 
 **Computer Science** student at **California Polytechnic State University, San Luis Obispo** (Cal Poly SLO).  
-Passionate about **robotics**, **real-time embedded systems**, **edge AI**, and **safe high-performance code**.
+Passionate about **Unmanned Aerial Systems (UAS)**, **robotics**, **real-time embedded systems**, **edge AI**, and **safe high-performance code**.
 
-I build things that move, think, and react — such as VEXU competition bots and real-time traffic anomaly detection on NVIDIA Jetson hardware. I'm currently working on autonomous drone software on NVIDIA Jetson Hardware and legged robots in embedded Rust.
+I build systems that perceive, decide, and act in real time — from traffic anomaly detection on NVIDIA Jetson hardware to autonomous aerial systems for competitive unmanned aircraft. My work spans Rust-based autonomy software, Zenoh-powered distributed systems, and Nix-managed robotics deployments, with prior experience in VEXU competition robotics.
 
 ### Currently Working On
-- [**PolyUAS**](https://polyuas.org) - A competitive Unmanned Aerial Systems team building drones for C-UAS competitions.
-  Co-Software lead + GNC lead - writing safety-critical hardware integration layers and building autonomous navigation logic. [PolyUAS GitHub Page](https://github.com/PolyUAS), here's the latest repository we've developed: [C-UASC 26](https://github.com/PolyUAS/C-UASC26).
-- **BROS** — A lightweight, modern tech stack alternative to ROS using **Zenoh** pub/sub + **Nix flakes** for reproducible builds. Built as a part of my work in [PolyUAS](https://polyuas.org).
-  → [BROS](https://github.com/Isaac-Pruett/BROS)
-- [**Cal Poly Gear Slingers VEX U Team**](https://cpvexu.weebly.com) (2025–2026 Season: Push Back)  
-  Programming lead — writing performant robot control software in **C++** + embedded firmware in **Rust**.  
-  → [2025-2026](https://github.com/CalPolyVEX/2025-2026) Current Season + Rust Firmware · [MonarchBoard](https://github.com/CalPolyVEX/MonarchBoard) (older C++ firmware)
+[**PolyUAS**](https://polyuas.org) - A competitive Unmanned Aerial Systems team building drones for C-UAS competitions.
+
+Software + GNC Lead
+
+Designing safety-critical autonomy software, hardware integration layers, and autonomous navigation systems.
+
+Recent work:
+
+  - **C-UASC26** — Final-state Rust/Python/Zenoh autonomy stack (control, guidance, navigation, vision) built for PolyUAS's 2026 C-UAS competition entry, built on top of BROS. → [C-UASC26](https://github.com/PolyUAS/C-UASC26)
+  - **RPi5-Dendritic-Nixos** — Reproducible NixOS configuration for Raspberry Pi 5 compute nodes, using the dendritic pattern for modularity to scale across part of PolyUAS's companion compute fleet. → [RPi5-Dendritic-Nixos](https://github.com/Isaac-Pruett/RPi5-Dentritic-Nixos)
+  - **BROS** — A lightweight, modern alternative to ROS. Built around **Zenoh** pub/sub messaging and **Nix Flakes** for reproducible, one-command builds, with polyglot node templates for **Rust** and **Python** (and now **Go**!), emphasizing language-native dependency managment. Still in active development. Built as a part of my work in [PolyUAS](https://polyuas.org). → [BROS](https://github.com/Isaac-Pruett/BROS)
 
 ### Other Cool Projects
 - **AI-Driven Real-Time Traffic Anomaly Detection**  
   Summer Undergraduate Research Project (SURP 2025) in collaboration with **Caltrans District 5**.  
   Deploying neural networks on **Jetson Orin Nano** for mobile, battery-powered highway monitoring.  
   → [Jetson-RT-Traffic-System](https://github.com/Isaac-Pruett/Jetson-RT-Traffic-System) (Python, DeepStream, ROS 2)
+- [**Cal Poly Gear Slingers VEX U Team**](https://cpvexu.weebly.com) (2024–2026 Seasons: High Stakes, Push Back)  
+  Programming lead — wrote performant robot control software in **C++** + experimental embedded firmware in **Rust**.  
+  → [2025-2026](https://github.com/CalPolyVEX/2025-2026) Current Season + Rust Firmware · [MonarchBoard](https://github.com/CalPolyVEX/MonarchBoard) (older C++ firmware)
 
-- **Hexapod** — Rust-powered embedded control software for a six-legged walking robot. (RP2040, Embassy, Embedded Rust)
-  → [hexapod](https://github.com/Isaac-Pruett/hexapod)
 
 ### Tech Stack I Love
-- **Languages**: Python · Rust · C/C++ · Java 
-- **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · Genesis · Nix · VEX SDK
-- **Tools**: Cargo · uv · Git · Zed · VSCode
+- **Languages**: Nix · Rust · Python · C/C++ 
+- **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · RPi 5 · Mavlink 
+- **Tools**: Cargo · uv · Git · Zed · NixOS · helix
+- **Software Design**: Applying OOP and architectural design patterns (factory, observer, strategy, pub/sub) to keep robotics codebases modular and maintainable.
 
-Open to collaborations, feedback, or chatting about robotics, embedded Rust, edge AI, or Cal Poly CS life. Feel free to reach out!
+Open to collaborations, feedback, or chatting about robotics, Nix/NixOS, embedded Rust, edge AI, or Cal Poly CS life. Feel free to reach out!
