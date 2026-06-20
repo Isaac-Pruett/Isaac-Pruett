@@ -16,7 +16,7 @@ Recent work:
 
   - **C-UASC26** — Final-state Rust/Python/Zenoh autonomy stack (control, guidance, navigation, vision) built for PolyUAS's 2026 C-UAS competition entry, built on top of BROS. → [C-UASC26](https://github.com/PolyUAS/C-UASC26)
   - **RPi5-Dendritic-Nixos** — Reproducible NixOS configuration for Raspberry Pi 5 compute nodes, using the dendritic pattern for modularity to scale across part of PolyUAS's companion compute fleet. → [RPi5-Dendritic-Nixos](https://github.com/Isaac-Pruett/RPi5-Dentritic-Nixos)
-  - **BROS** — A lightweight, modern alternative to ROS. Built around **Zenoh** pub/sub messaging and **Nix Flakes** for reproducible, one-command builds, with polyglot node templates for **Rust** and **Python** (and now **Go**!), emphasizing language-native dependency managment. Still in active development. Built as a part of my work in [PolyUAS](https://polyuas.org). → [BROS](https://github.com/Isaac-Pruett/BROS)
+  - **BROS** — A lightweight, modern alternative to ROS. Built around **Zenoh** pub/sub messaging and **Nix Flakes** for reproducible, one-command builds, with polyglot node templates for **Rust** and **Python** (and now **Go**!), emphasizing language-native dependency management. Still in active development. Built as a part of my work in [PolyUAS](https://polyuas.org). → [BROS](https://github.com/Isaac-Pruett/BROS)
 
 ### Other Cool Projects
 - **AI-Driven Real-Time Traffic Anomaly Detection**  
