@@ -7,7 +7,7 @@ I build things that move, think, and react — such as VEXU competition bots and
 
 ### Currently Working On
 - [**PolyUAS**](https://polyuas.org) - A competitive Unmanned Aerial Systems team building drones for C-UAS competitions.
-  Co-Software lead + GNC lead - writing safety-critical hardware integration layers and building autonomous navigation logic. [PolyUAS GitHub Page](https://github.com/PolyUAS), private as of 3/13/2026.
+  Co-Software lead + GNC lead - writing safety-critical hardware integration layers and building autonomous navigation logic. [PolyUAS GitHub Page](https://github.com/PolyUAS), here's the latest repository we've developed: [C-UASC 26](https://github.com/PolyUAS/C-UASC26).
 - **BROS** — A lightweight, modern tech stack alternative to ROS using **Zenoh** pub/sub + **Nix flakes** for reproducible builds. Built as a part of my work in [PolyUAS](https://polyuas.org).
   → [BROS](https://github.com/Isaac-Pruett/BROS)
 - [**Cal Poly Gear Slingers VEX U Team**](https://cpvexu.weebly.com) (2025–2026 Season: Push Back)  
