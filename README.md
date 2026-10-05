@@ -6,19 +6,25 @@ Passionate about **Unmanned Aerial Systems (UAS)**, **robotics**, **real-time em
 I build systems that perceive, decide, and act in real time — from traffic anomaly detection on NVIDIA Jetson hardware to autonomous aerial systems for competitive unmanned aircraft. My work spans Rust-based autonomy software, Zenoh-powered distributed systems, and Nix-managed robotics deployments, with prior experience in VEXU competition robotics.
 
 ### Currently Working On
+
 [**PolyUAS**](https://polyuas.org) - A competitive Unmanned Aerial Systems team building drones for C-UAS competitions.
 
 Software + GNC Lead
 
 Designing safety-critical autonomy software, hardware integration layers, and autonomous navigation systems.
 
-Recent work:
+Current projects:
 
-  - **C-UASC26** — Final-state Rust/Python/Zenoh autonomy stack (control, guidance, navigation, vision) built for PolyUAS's 2026 C-UAS competition entry, built on top of BROS. → [C-UASC26](https://github.com/PolyUAS/C-UASC26)
-  - **RPi5-Dendritic-Nixos** — Reproducible NixOS configuration for Raspberry Pi 5 compute nodes, using the dendritic pattern for modularity to scale across part of PolyUAS's companion compute fleet. → [RPi5-Dendritic-Nixos](https://github.com/Isaac-Pruett/RPi5-Dentritic-Nixos)
-  - **BROS** — a reproducible, lightweight distributed robotics framework combining Zenoh communications, language-native tooling, code generation/templates, and Nix-based builds/deployment. Built as a part of my work in [PolyUAS](https://polyuas.org). → [BROS](https://github.com/Isaac-Pruett/BROS)
+- [**UAS-Bumblebee**](https://github.com/Isaac-Pruett/UAS-Bumblebee) — In-progress Rust swarm flight stack, developed as part of my work in PolyUAS.
+- [**Bumblebee-NixOS**](https://github.com/Isaac-Pruett/Bumblebee-NixOS) — Reproducible NixOS configurations for Raspberry Pi 5 companion compute nodes, using the dendritic pattern to support modular, scalable deployments for PolyUAS projects.
+
+Related work:
+
+- [**C-UASC26**](https://github.com/PolyUAS/C-UASC26) — Rust/Python/Zenoh autonomy stack covering control, guidance, navigation, and vision for PolyUAS's 2026 C-UAS competition entry, built on BROS.
+- [**BROS**](https://github.com/Isaac-Pruett/BROS) — Lightweight distributed robotics framework combining Zenoh communications, language-native tooling, code generation/templates, and reproducible Nix-based builds and deployment. Developed as part of my work in PolyUAS.
 
 ### Other Cool Projects
+
 - **AI-Driven Real-Time Traffic Anomaly Detection**  
   Summer Undergraduate Research Project (SURP 2025) in collaboration with **Caltrans District 5**.  
   Deploying neural networks on **Jetson Orin Nano** for mobile, battery-powered highway monitoring.  
@@ -27,10 +33,10 @@ Recent work:
   Programming lead — wrote performant robot control software in **C++** + experimental embedded firmware in **Rust**.  
   → [2025-2026](https://github.com/CalPolyVEX/2025-2026) Current Season + Rust Firmware · [MonarchBoard](https://github.com/CalPolyVEX/MonarchBoard) (older C++ firmware)
 
-
 ### Tech Stack I Love
-- **Languages**: Nix · Rust · Python · C/C++ 
-- **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · RPi 5 · Mavlink 
+
+- **Languages**: Nix · Rust · Python · C/C++
+- **Robotics & Embedded**: ROS 2 · Zenoh · NVIDIA Jetson/DeepStream · RPi 5 · Mavlink
 - **Tools**: Cargo · uv · Git · Zed · NixOS · helix
 - **Software Design**: Applying OOP and architectural design patterns (factory, observer, strategy, pub/sub) to keep robotics codebases modular and maintainable.
 
